@@ -49,7 +49,7 @@
 
 /* Basic */
 
-	body {
+body {
 		background-color: #183026;
 		background-image: url('images/overlay.png'), url('../../images/bg.jpg');
 		background-repeat: repeat, no-repeat;
@@ -74,9 +74,9 @@
 			@include vendor('transition', 'none !important');
 			@include vendor('animation', 'none !important');
 		}
-	}
+}
 
-	input, textarea, select {
+input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -118,7 +118,7 @@
 
 	a {
 		@include vendor('transition', ('border-color 0.35s ease-in-out', 'color 0.35s ease-in-out'));
-		color: #35b88f;
+		color: #394648;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
@@ -191,7 +191,7 @@
 		section, article {
 			margin-bottom: 0;
 		}
-	}
+}
 
 /* Image */
 
@@ -644,7 +644,7 @@
 
 /* Header */
 
-	#header {
+#header {
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
@@ -715,18 +715,18 @@
 
 /* Banner */
 
-	#banner {
+#banner {
 		position: relative;
-		color: #fff;
+		color: #394648;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url('images/banner.svg') bottom center no-repeat;
+		background: #ced3dc url('images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 
 		.button {
-			color: #35b882;
+			color: #282c41;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -742,6 +742,7 @@
 
 		p {
 			margin: 0;
+
 		}
 
 		footer {
@@ -760,7 +761,7 @@
 
 /* Footer */
 
-	#footer {
+#footer {
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
@@ -805,7 +806,7 @@
 
 /* Poptrox */
 
-	.poptrox-popup {
+.poptrox-popup {
 		@include vendor('box-sizing', 'content-box');
 		background: #fff;
 		padding-bottom: 3em;
