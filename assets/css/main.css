@@ -1007,7 +1007,7 @@ body {
     margin-left: 8.3333333333%; } }
 /* Basic */
 body {
-  background-color: #183026;
+  background-color: #151e25;
   background-image: url("images/overlay.png"), url("../../images/bg.jpg");
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1682,7 +1682,7 @@ button,
 @media screen and (max-width: 840px) {
   /* Basic */
   body {
-    background-color: #203936;
+    background-color: #151e25;
     background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
     background-repeat: repeat, no-repeat;
     background-size: auto, 100% auto;
@@ -1863,9 +1863,8 @@ button,
       display: none; }
   .poptrox-popup .closer {
     opacity: 0.5; } }
+.logo {
+  width: 15em;
+  height: 15em; }
 
 /*# sourceMappingURL=main.css.map */
-.logo{
-   width: 15em;
-    height: 15em;
-    }
