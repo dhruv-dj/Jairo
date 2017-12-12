@@ -7,10 +7,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/navbar.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
-
+	   
+    </head>
+    
+	<body data-spy="scroll" data-offset="0" data-target="#theMenu">
+        <nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">NayMi</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#services" class="smoothScroll">Services</a>
+			<a href="#portfolio" class="smoothScroll">Why NayMi?</a>
+			<a href="#about" class="smoothScroll">About</a>
+			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="https://www.facebook.com/theNayMi/" target="_blank"><i class="icon-facebook"></i></a>
+			
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
 		<!-- Header -->
 			<section id="header">
 				<header>
@@ -273,7 +291,7 @@
 				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 			</ul>
 			<div class="copyright">
-				<ul class="menu">
+				<ul class="foot">
 					<li>&copy;Jairo 2017. All rights reserved.</li>
 				</ul>
 			</div>
@@ -286,7 +304,8 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+			
+        <script src="assets/js/main.js"></script>
+<script src="assets/js/navbar.js"></script>
 	</body>
 </html>
