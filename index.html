@@ -1,18 +1,29 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
+	<head>
+	  <script>
+    jQuery(window).load(function(){
+        jQuery(".hameid-loader-overlay").fadeOut(500);
+    });
+</script>
         <title>Jairo</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="assets/css/main.css" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="assets/css/navbar.css" />
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="assets/css/ie8.css" />
         <![endif]-->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	   <noscript>
+    <style>.hameid-loader-overlay { display: none; } </style>
+</noscript>
+
     </head>
-    <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+
+	<body data-spy="scroll" data-offset="0" data-target="#theMenu">
+        <div class="hameid-loader-overlay"></div>
         <nav class="menu" id="theMenu">
             <div class="menu-wrap">
                 <h1 class="logo"><a href="index.html#home">JAIRO</a></h1>
