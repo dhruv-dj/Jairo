@@ -1172,15 +1172,15 @@ ul.icons {
     line-height: 2.5em;
     text-align: center;
     border: 0; }
-ul.menu {
+ul.foot {
   cursor: default; }
-  ul.menu li {
+  ul.foot li {
     display: inline-block;
     line-height: 1em;
     border-left: solid 1px #dad9d9;
     padding: 0 0 0 0.5em;
     margin: 0 0 0 0.5em; }
-    ul.menu li:first-child {
+    ul.foot li:first-child {
       border-left: 0;
       padding-left: 0;
       margin-left: 0; }
@@ -1864,7 +1864,6 @@ button,
   .poptrox-popup .closer {
     opacity: 0.5; } }
 .logo {
-  width: 15em;
-  height: 15em; }
+  width: 15em; }
 
 /*# sourceMappingURL=main.css.map */
