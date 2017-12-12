@@ -1172,15 +1172,15 @@ ul.icons {
     line-height: 2.5em;
     text-align: center;
     border: 0; }
-ul.menu {
+ul.foot {
   cursor: default; }
-  ul.menu li {
+  ul.foot li {
     display: inline-block;
     line-height: 1em;
     border-left: solid 1px #dad9d9;
     padding: 0 0 0 0.5em;
     margin: 0 0 0 0.5em; }
-    ul.menu li:first-child {
+    ul.foot li:first-child {
       border-left: 0;
       padding-left: 0;
       margin-left: 0; }
@@ -1725,6 +1725,42 @@ button,
     background-size: 200% auto; }
     #banner br {
       display: none; } }
+.how {
+  margin-top: 9em !important; }
+  .how .image {
+    margin: 0 auto; }
+  .how:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -9em;
+    left: 50%;
+    height: 9em;
+    border-left: solid 1px #fff; }
+  .how:before {
+    content: '';
+    display: block;
+    width: 90px;
+    height: 66px;
+    position: absolute;
+    left: 50%;
+    top: -4.5em;
+    margin-left: -45px;
+    margin-top: -33px;
+    background: url("images/arrow.svg") no-repeat; }
+  .how .left {
+    margin-right: 5%;
+    display: inline-block;
+    width: 45%;
+    box-shadow: 13px 14px 18px -10px rgba(0, 0, 0, 0.55);
+    transition: all .1s ease-out; }
+  .how .left:hover {
+    box-shadow: 13px 14px 25px -7px rgba(0, 0, 0, 0.55); }
+  .how .right {
+    margin: 0 auto !important;
+    display: inline-block;
+    width: 45%; }
+
 /* Mobile */
 @media screen and (max-width: 736px) {
   /* Basic */
@@ -1813,6 +1849,24 @@ button,
     .box.style3 {
       padding: 2em 1.25em 2em 1.25em; }
 
+  .how {
+    margin-top: 4.5em; }
+    .how:after {
+      top: -4.5em;
+      height: 4.5em; }
+    .how:before {
+      width: 45px;
+      height: 33px;
+      top: -2.25em;
+      margin-left: -22.5px;
+      margin-top: -16.5px;
+      background-size: 45px 33px; }
+    .how .left {
+      width: 100%; }
+    .how .right {
+      margin-top: 5% !important;
+      width: 100%; }
+
   /* Header */
   #header {
     padding: 6em 0 6em 0; }
@@ -1864,7 +1918,6 @@ button,
   .poptrox-popup .closer {
     opacity: 0.5; } }
 .logo {
-  width: 15em;
-  height: 15em; }
+  width: 10em; }
 
 /*# sourceMappingURL=main.css.map */
