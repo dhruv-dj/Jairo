@@ -16,7 +16,7 @@
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #1a1a1a;
+	background: #1f242b;
 	width: 200px;
 	height: 100%;
 }
@@ -33,7 +33,7 @@
 }
 
 .menu h1.logo a:hover {
-	color: #f85c37;
+	color: #ff5d00;
 }
 
 .menu img.logo {
