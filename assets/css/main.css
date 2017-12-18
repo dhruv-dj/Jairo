@@ -1456,7 +1456,7 @@ button,
   cursor: default; }
   #header header {
     display: inline-block;
-    padding: 0 0 4.5em 0; }
+    padding: 0 0 2.56em 0; }
     #header header h1 {
       font-weight: 600;
       font-size: 2em;
@@ -1520,7 +1520,7 @@ button,
       font-size: 1.75em;
       letter-spacing: 8px; }
   #banner p {
-    margin: 0; }
+    margin: 0 4em 0 4em; }
   #banner footer {
     margin: 2em 0 0 0; }
   #banner a {
@@ -1926,5 +1926,9 @@ button,
   background: url("images/preloader.gif") center no-repeat #101010;
   z-index: 99999;
   position: fixed; }
+
+.small-text {
+  font-size: 90%;
+  line-height: 140%; }
 
 /*# sourceMappingURL=main.css.map */

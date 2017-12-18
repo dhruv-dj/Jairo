@@ -631,7 +631,7 @@ button,
 
   header {
     display: inline-block;
-    padding: 0 0 4.5em 0;
+    padding: 0 0 2.56em 0;
 
     h1 {
       font-weight: 600;
@@ -717,7 +717,7 @@ button,
   }
 
   p {
-    margin: 0;
+    margin: 0 4em 0 4em;
   }
 
   footer {
@@ -1334,4 +1334,8 @@ button,
     background: url('images/preloader.gif') center no-repeat #101010;
     z-index: 99999;
     position: fixed;
+}
+.small-text{
+    font-size: 90%;
+    line-height: 140%;
 }
