@@ -1067,6 +1067,12 @@ strong, b {
 em, i {
   font-style: italic; }
 
+.ff {
+  font-family: sans-serif;
+  font-style: normal;
+  align-content: center;
+  text-align: center; }
+
 a {
   -moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
   -webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;

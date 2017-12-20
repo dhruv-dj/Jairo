@@ -89,6 +89,13 @@ em, i {
   font-style: italic;
 }
 
+.ff {
+    font-family:sans-serif; 
+    font-style: normal;
+    align-content: center;
+    text-align: center;
+}
+
 a {
   @include vendor("transition", ("border-color 0.35s ease-in-out", "color 0.35s ease-in-out"));
 
