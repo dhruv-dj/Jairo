@@ -494,7 +494,10 @@ button,
 
       img {
         position: absolute;
-        top: 2em;
+          @include breakpoint(mobile){
+              top : 0;
+          }
+          top: 2em; 
 
       }
     }

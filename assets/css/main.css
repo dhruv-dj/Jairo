@@ -1370,6 +1370,9 @@ button,
       .box.style1 .image img {
         position: absolute;
         top: 2em; }
+        @media screen and (max-width: 736px) {
+          .box.style1 .image img {
+            top: 0; } }
     .box.style1 .inner > :last-child {
       margin: 0; }
     .box.style1.right .image {
