@@ -1365,13 +1365,11 @@ button,
       top: 0;
       width: 50%;
       height: 100%;
-      background: #152E33;
+      background-image: url("images/pic05.jpg");
       overflow: hidden; }
       .box.style1 .image img {
         position: absolute;
-        top: 0;
-        height: 100%;
-        width: auto; }
+        top: 2em; }
     .box.style1 .inner > :last-child {
       margin: 0; }
     .box.style1.right .image {
