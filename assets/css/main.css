@@ -1851,12 +1851,10 @@ button,
   .how {
     margin-top: 4.5em; }
     .how:after {
-      top: -4.5em;
-      height: 4.5em; }
+      height: 9em; }
     .how:before {
       width: 45px;
       height: 33px;
-      top: -2.25em;
       margin-left: -22.5px;
       margin-top: -16.5px;
       background-size: 45px 33px; }
