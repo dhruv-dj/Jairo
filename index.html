@@ -171,7 +171,7 @@
          $('#submit-form').on('click', function(e) {
            e.preventDefault();
 
-	         console.log("clicked");
+
 
 	         var formData = $form.serializeArray();
 	         var data = {};
@@ -187,8 +187,8 @@
 						 	dataType: "json",
 						 	data: data,
               success:function(){
-                console.log("Sucess");
-                alert("Success!")
+
+                alert("Thanks you for contacting Jairo. We will reach out to you soon!")
                 location.reload();
               }
 						 });
