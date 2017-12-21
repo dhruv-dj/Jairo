@@ -1461,8 +1461,7 @@ button,
   padding: 14em 0 14em 0;
   cursor: default; }
   #header header {
-    display: inline-block;
-    padding: 0 0 2.56em 0; }
+    display: inline-block; }
     #header header h1 {
       font-weight: 600;
       font-size: 2em;
@@ -1777,6 +1776,9 @@ button,
     line-height: 1.5em;
     font-size: 12pt;
     letter-spacing: 0; }
+
+  #banner p {
+    margin: 0; }
 
   h2, h3, h4, h5, h6 {
     font-size: 1em; }

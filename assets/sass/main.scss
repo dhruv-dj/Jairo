@@ -90,7 +90,7 @@ em, i {
 }
 
 .ff {
-    font-family:sans-serif; 
+    font-family:sans-serif;
     font-style: normal;
     align-content: center;
     text-align: center;
@@ -495,7 +495,7 @@ button,
       top: 0;
       width: 50%;
       height: 100%;
-      
+
       background-image: url('images/pic05.jpg');
         overflow: hidden;
 
@@ -504,7 +504,7 @@ button,
           @include breakpoint(mobile){
               top : 0;
           }
-          top: 2em; 
+          top: 2em;
 
       }
     }
@@ -641,7 +641,7 @@ button,
 
   header {
     display: inline-block;
-    padding: 0 0 2.56em 0;
+
 
     h1 {
       font-weight: 600;
@@ -1091,7 +1091,11 @@ button,
     font-size: 12pt;
     letter-spacing: 0;
   }
-
+  #banner{
+    p{
+      margin: 0;
+    }
+  }
   h2, h3, h4, h5, h6 {
     font-size: 1em;
   }
