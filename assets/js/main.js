@@ -5,9 +5,9 @@
 */
 
 (function($) {
-    
+
      jQuery(window).load(function(){
-        jQuery(".hameid-loader-overlay").fadeOut(500);
+        jQuery(".hameid-loader-overlay").delay(1900).fadeOut(500);
     });
 
 	var settings = {
