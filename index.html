@@ -168,6 +168,8 @@
 
 
          $('#submit-form').on('click', function(e) {
+           e.preventDefault();
+
 	         console.log("clicked");
 
 	         var formData = $form.serializeArray();
@@ -182,13 +184,14 @@
 						 	url: url,
 						 	method: "GET",
 						 	dataType: "json",
-						 	data: data
-						 }).success(function(){
-						 	 console.log("Sucess");
-						  }
-						 );
+						 	data: data,
+              success:function(){
+                console.log("Sucess");
+                alert("Success!")
+                location.reload();
+              }
+						 });
 	         }else{
-						 e.preventDefault();
 
 						 $(".emailmessage").show();
 					 }
