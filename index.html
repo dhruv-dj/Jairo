@@ -20,6 +20,7 @@
       <link rel="stylesheet" href="assets/css/font-awesome.min.css">
       <link rel="stylesheet" href="assets/css/main.css" />
       <link rel="stylesheet" href="assets/css/navbar.css" />
+       
       <!--[if lte IE 8]>
       <link rel="stylesheet" href="assets/css/ie8.css" />
       <![endif]-->
@@ -108,10 +109,20 @@
                <p> With the help of a mobile application and a web portal we solve all your problems.
                </p>
                <br>
-               <a href = "#"><img src ="images/download.png" alt = ""/></a>
+                <br>
+               <a id="play"href = "#"><img src ="images/download.png" alt = ""/></a>
             </div>
-         </section>
+             <br>
+             <br>
+             <br>
+             <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ILPgOpmvnpI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </section>
+          
+     
       </div>
+       
+
       <!-- Contact -->
       <article id="contact" class="container box style3">
          <header>
@@ -161,7 +172,33 @@
       <script src="assets/js/smoothscroll.js"></script>
 
       <script>
-				$(".emailmessage").hide();
+//		$('.myIframe').css('height', $(window).width()*9/16+'px');	
+//          $(function() {
+//    var iFrames = $('iframe');
+//
+//    function resize() {
+//        for (var i = 0, j = iFrames.length; i & lt; j; i++) {
+//            var nHeight = iFrames[i].contentWindow.document.body.offsetHeight;
+//            iFrames[i].style.height = nHeight + 'px';
+//        }
+//    }
+//    if ($.browser.safari || $.browser.opera) {
+//        iFrames.load(function() {
+//            setTimeout(resize, 0);
+//        });
+//        for (var i = 0, j = iFrames.length; i & lt; j; i++) {
+//            var iSource = iFrames[i].src;
+//            iFrames[i].src = '';
+//            iFrames[i].src = iSource;
+//        }
+//
+//    } else {
+//        iFrames.load(function() {
+//            this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
+//        });
+//    }
+//});
+          $(".emailmessage").hide();
          var $form = $('form#test-form'),
            url = 'https://script.google.com/macros/s/AKfycbzUVoGeSKW_hHaI7N50K7aK-tgUZyEixWcSEb4N_yFmV8LcSeA/exec'
 
